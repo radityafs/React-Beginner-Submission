@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header{
+  height: 105px;
+  background-color: #16abff;
+  color: #FFF;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header h2{
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.todo-header{
+  margin: 25px 0 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.todo-header h1{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.todo-header .btn{
+  width: 170px;
+  height: 54px;
+  border-radius: 45px;
+  background-color: #16abf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon-plus{
+  width: 24px;
+  height: 24px;
+  background-image: url("./icon-plus.svg");
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.nav-link{
+  margin-top: 25px;
+  border: 1px solid black !important;
+  margin-right: 25px;
+}
+
+.nav-item button{
+  font-size: 18px;
+  font-weight: 600;
+  color: black
+}
+
+.nav-item .active{
+  color: #16abf8 !important;
+}
+
+.search-todo{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+input{
+  outline: none;
+  border: 1px solid #16abf8;
+  padding-left: 15px;
+}
+
+.btn-primary{
+  background-color: #16abf8 !important;
+  color: #FFF;
+}
+
+
+.card-body{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.card-body p{
+  margin: 0 !important;
+}
+
+.card-body .description{
+  height: 100px;
+}
+
+.card-body .btn-action{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-tabs{
+  border-bottom: none !important;
+}
+
+
+@media (min-width: 768px) {
+  .card-body .description{
+    height: 175px;
+  }
+}
+
+
+@media (min-width: 1080px) {
+  .card-body .description{
+    height:140px;
+  }
+}
