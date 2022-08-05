@@ -1,4 +1,5 @@
 # PROJECT OVERVIEW
+![project-overview](https://user-images.githubusercontent.com/89149429/183053746-8779c57c-a7f0-46b6-9aee-3e2544c2a851.png)
 
 # Kriteria
 
